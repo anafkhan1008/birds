@@ -1,0 +1,27 @@
+<script>
+    var max=0;
+    var maxi=0;
+    var min=0;
+    var mini=0;
+    var numbers = [0,0,1,1,1,2,2,5];
+    numbers.forEach(myFunction);
+
+    function myFunction(value) {
+      for(i=0;i<length.numbers;i++)
+      {
+        if(a[i]>max)
+        {
+            max=a[i];
+            maxi=i+1;
+        }
+        if(a[i]<min)
+        {
+            min=a[i];
+            mani=i+1;
+        }
+       }
+     
+    }
+    console.log('max',min);
+   my_function();
+    </script>
